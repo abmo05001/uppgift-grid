@@ -1,0 +1,33 @@
+*{
+   margin:0;
+   padding:0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    background-color:antiquewhite;
+
+    grid-template-areas: 
+    "header header"
+    "main ."
+    "footer footer";
+}
+
+header{
+    background-color: aquamarine;
+    grid-area: header;
+}
+main{
+    background-color:brown;
+    grid-area: main;
+}
+footer{
+    background-color:aqua;
+    grid-area: footer;
+}
+header{
+    border-style:double;
+    background-color:aquamarine,
+
+
+}
